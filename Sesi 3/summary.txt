@@ -1,0 +1,3 @@
+- (!important) didahulukan
+(#) buat manggil id
+(.) buat manggul class

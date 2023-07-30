@@ -1,0 +1,11 @@
+@media(min-width: 992px){
+    .selector{
+        width: 971px;
+    }
+}
+
+@media(max-width: 768px){
+    .selector{
+        width: 751px;
+    }
+}

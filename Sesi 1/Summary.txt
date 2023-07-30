@@ -1,0 +1,13 @@
+install vscode :
+    vscode (visual studio code) : https://code.visualstudio.com/
+
+extension vscode :
+    auto close tag
+    auto rename tag
+    prettier - code formatter
+    live server (rekomendasi)
+atau php server :
+	local server  / xampp / laragon
+
+
+buat github 
