@@ -1,4 +1,4 @@
-@media(min-width: 992px){
+/* @media(min-width: 992px){
     .selector{
         width: 971px;
     }
@@ -8,4 +8,14 @@
     .selector{
         width: 751px;
     }
+}*/
+
+body {
+    background-color: aquamarine;
+    min-width: 321px;
+    max-width: 400px;
+}
+
+html {
+    background-color: blueviolet;
 }
