@@ -1,3 +1,14 @@
 - (!important) didahulukan
 (#) buat manggil id
 (.) buat manggul class
+
+belajar CSS
+- background
+- margin dan padding
+- font
+- link/hyperlink
+- format text
+- position css
+- border css
+- list css
+- latihan portofolio
