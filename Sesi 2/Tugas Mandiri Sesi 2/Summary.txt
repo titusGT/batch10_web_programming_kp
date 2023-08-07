@@ -1,0 +1,13 @@
+latihan :
+    1. Membuat text menjadi miring dan tebal (em, b)
+    2. Memasukkan gambar pada HTML (img src, width, height)
+    3. Membuat link pada HTML (a href)
+    4. Membuat heading atau penjudulan (h1-h6, p)
+    5. Menerapkan list pada text (ol, ul)
+    6. Memahami div (Id, Class)
+    7. Membuat form (Label, text, textArea, button)
+    8. Membuat tabel
+    9. Pengenalan HTML layouting
+    10. Latihan membuat portofolio
+    11. sedikit penjelasan git
+    

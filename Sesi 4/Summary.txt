@@ -1,0 +1,13 @@
+langkag langkah berpikir secara logika (algoritma)
+
+step > menggunakan komputer sehari-hari :
+- menekan tombol on/off
+- menunggu booting 
+- memasukan password
+- membuka aplikasi yang dibutuhkan
+- dan lain2.
+
+membuat algoritma >
+by case : ngoding dulu, baru revisi
+
+- create sketsa (alur, langkah, kebutuhan, dll)

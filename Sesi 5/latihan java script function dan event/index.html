@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan event case grade</title>
+</head>
+<body>
+    <script>
+        let nilai = 151
+        console.log(hitung_grade(nilai))
+        console.log(hitung2_grade(nilai))
+
+        function hitung_grade(nilai) {
+            let grade = ""
+            if (nilai >= 91) {
+                grade = "A"
+            } else if (nilai >= 81) {
+                grade = "B"
+            }else if (nilai >= 71) {
+                grade = "C"
+            }else if (nilai >= 61) {
+                grade = "D"
+            }else {
+                grade = "E"
+            }
+            return grade
+            
+        }
+
+        function hitung2_grade(nilai) {
+            let grade = ""
+            if (nilai >= 89 && nilai <= 100) {
+                grade = "A"
+            } else if (nilai >= 79 && nilai <= 88) {
+                grade = "B"
+            }else if (nilai >= 69 && nilai <= 78) {
+                grade = "C"
+            }else if (nilai >= 59 && nilai <= 68) {
+                grade = "D"
+            }else if (nilai >= 1 && nilai <= 58) {
+                grade = "E"
+            } else {
+                grade = "Tidak valid"
+            }  
+            return grade
+            
+        }
+    </script>
+    
+</body>
+</html>

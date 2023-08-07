@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>latihan function pada js</title>
+  </head>
+  <body>
+    <h1>latihan function pada java script</h1>
+
+    <div id="hasil"></div>
+    <div id="pembelajaran"></div>
+
+    <script>
+      // penggunaan parameter
+      function tampilan_nama(params) {
+        return "nama saya " + params;
+      }
+
+      // tidak menggunakan parameter
+      //function tampilan_nama() {
+      //  return "nama saya titus" }
+
+      function nama_pembelajaran() {
+        return "<br>hacktiv8 front end developer";
+      }
+
+      document.getElementById("hasil").innerHTML = tampilan_nama("fakeh");
+      document.getElementById("pembelajaran").innerHTML =
+        tampilan_nama("titus") + nama_pembelajaran();
+    </script>
+  </body>
+</html>

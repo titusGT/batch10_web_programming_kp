@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>latihan conditional</title>
+  </head>
+  <body>
+    <h1>latihan conditional pada js</h1>
+
+    <div id="hasil_nilai"></div>
+
+    <div id="hasil_boolean"></div>
+
+    <script src="javascript.js"></script>
+    <script>
+      var nilai = 91;
+      var grade = hitung2_grade(nilai);
+
+      document.getElementById("hasil_nilai").innerHTML =
+        "nilai " + nilai + "mendapat " + grade;
+
+      //boolean
+      let status = false;
+      //var hasil = status ? "aktif" : "tidak aktif";
+        
+      //penggunaan if else
+      if (status == true) {
+        hasil = "aktif"
+      }else{
+        hasil = "tidak aktif"
+      }
+      document.getElementById("hasil_boolean").innerHTML = hasil;
+    </script>
+  </body>
+</html>

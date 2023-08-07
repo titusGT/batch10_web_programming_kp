@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tombol ubah</title>
+  </head>
+  <body>
+    <button id="tombol" onclick="ubahText()">klik aku</button>
+    <script>
+      function ubahText() {
+        
+        var element = document.getElementById("tombol")
+
+        if (element.innerHTML == "klik aku" ) {
+          element.innerHTML = "hallo YAL"
+        } else {
+          return element.innerHTML = "klik aku"
+        }
+        
+        //document.getElementById("tombol").innerHTML = "halo YAL";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar aritmatika pada js</title>
+  </head>
+  <body>
+    <h1>penggunaan aritmatika pada js</h1>
+
+    <div id="penjumlahan"></div>
+    <div id="pengurangan"></div>
+    <div id="pembagian"></div>
+    <div id="perkalian"></div>
+    <div id="modulus"></div>
+
+    <script>
+      var bilangan1 = 13;
+      var bilangan2 = 5;
+
+      var penjumlahanB = bilangan1 + bilangan2;
+      var penguranganB = bilangan1 - bilangan2;
+      var pembagianB = bilangan1 / bilangan2;
+      var perkalianB = bilangan1 * bilangan2;
+      var modulusB = bilangan1 % bilangan2;
+
+      //document.getElementById("penjumlahan").innerHTML =
+      //"hasil dari " + bilangan1 + " + " + bilangan2 + " = " + penjumlahanB;
+      //document.getElementById("pengurangan").innerHTML =
+      //"hasil dari " + bilangan1 + " - " + bilangan2 + " = " + penguranganB;
+      //document.getElementById("pembagian").innerHTML =
+      //"hasil dari " + bilangan1 + " / " + bilangan2 + " = " + pembagianB;
+      //document.getElementById("perkalian").innerHTML =
+      //"hasil dari " + bilangan1 + " x " + bilangan2 + " = " + perkalianB;
+      //document.getElementById("modulus").innerHTML =
+      //"hasil dari " + bilangan1 + " % " + bilangan2 + " = " + modulusB;
+
+      //change output menggunakan function
+      document.getElementById("penjumlahan").innerHTML = output(
+        bilangan1,
+        bilangan2,
+        penjumlahanB
+      );
+      document.getElementById("pengurangan").innerHTML = output(
+        bilangan1,
+        bilangan2,
+        penguranganB
+      );
+      document.getElementById("pembagian").innerHTML = output(
+        bilangan1,
+        bilangan2,
+        pembagianB
+      );
+      document.getElementById("perkalian").innerHTML = output(
+        bilangan1,
+        bilangan2,
+        perkalianB
+      );
+      document.getElementById("modulus").innerHTML = output(
+        bilangan1,
+        bilangan2,
+        modulusB
+      );
+
+      function output(bilangan1, bilangan2, params) {
+        return "hasil " + bilangan1 + " dan " + bilangan2 + " adalah " + params;
+      }
+    </script>
+  </body>
+</html>

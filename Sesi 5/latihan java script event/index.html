@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>latihan event pada js</title>
+  </head>
+  <body>
+    <h1>belajar event pada java script</h1>
+
+    <button onclick="tampilan_nama()">colek saya</button>
+
+    <div id="hasil"></div>
+    <script>
+      var nama = "titus gigih";
+
+      function tampilan_nama() {
+        document.getElementById("hasil").innerHTML =
+          "perkenalkan, nama saya " + nama;
+
+        //contoh writeIn
+        //ketika di klik akan langsung pindah halaman baru
+          //document.writeln("perkenalkan, nama saya " + nama);
+      }
+    </script>
+  </body>
+</html>

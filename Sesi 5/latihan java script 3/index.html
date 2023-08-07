@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar java script tipe data</title>
+  </head>
+  <body>
+    <h1>tipe data number di js</h1>
+    <p>data number</p>
+    <div id="hasil_number"></div>
+    <br />
+
+    <p>data string</p>
+    <div id="hasil_string"></div>
+    <br />
+
+    <p>data array</p>
+    <div id="hasil_array"></div>
+    <br />
+
+    <p>data objek</p>
+    <div id="hasil_objek"></div>
+    <br />
+
+    <script>
+      var angka;
+      angka = 12;
+      console.log(angka);
+      console.log(angka);
+      //mengubah value
+      angka += 13;
+      console.log(angka);
+
+      document.getElementById("hasil_number").innerHTML = angka;
+
+      //---------------------------------------------------------------
+      // string
+      var kalimat;
+      kalimat = "belajar js di hacktiv8";
+
+      document.getElementById("hasil_string").innerHTML = kalimat;
+
+      //array
+      var kota;
+      //semua yang ada pada array walaupun tidak string akan ditampilkan
+      //berbeda dengan java yang hanya menampilkan salah satu dari string, number atau boolean
+      kota = [
+        "jakarta",
+        "tuban",
+        "Surabaya",
+        "Semarang",
+        1,
+        2,
+        3.5,
+        true,
+        false,
+      ];
+
+      //document.getElementById("hasil_array").innerHTML = kota
+      //indexing array dimulai dari angka nol
+      document.getElementById("hasil_array").innerHTML = kota[1];
+
+      //objek
+      var identitas;
+      identitas = {
+        nama: "Titus",
+        usia: 26,
+        asal: "Tuban",
+      };
+
+      document.getElementById("hasil_objek").innerHTML =
+        "nama saya " +
+        identitas.nama +
+        " usia saya " +
+        identitas.usia +
+        " asal saya " +
+        identitas.asal;
+    </script>
+  </body>
+</html>

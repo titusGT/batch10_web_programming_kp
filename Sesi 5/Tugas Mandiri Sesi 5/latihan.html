@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan</title>
+  </head>
+  <body>
+    <label>Pesan :</label>
+    <input type="text" id="pesan" /><br />
+    <label>Berapa Kali :</label>
+    <input type="number" id="pengulangan" /><br />
+    <button onclick="cetak()">Cetak!</button>
+    <p id="text"></p>
+
+    <script>
+      function cetak() {
+        var pesanx = document.getElementById("pesan").value;
+        var pengulanganx = document.getElementById("pengulangan").value;
+        var hasil = document.getElementById("text");
+        var hasilValue = "";
+
+        hasilValue += `<ol>`;
+
+        for (let i = 0; i < pengulanganx; i++) {
+          hasilValue += `<li>${pesanx}</li>`;
+        }
+        hasilValue += `</ol>`;
+
+        hasil.innerHTML = hasilValue;
+      }
+    </script>
+  </body>
+</html>

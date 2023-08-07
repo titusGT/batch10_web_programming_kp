@@ -1,0 +1,36 @@
+1. Judul algortima
+    Menghitung luas dan keliling lingkaran
+
+2. Input-input yang diperlukan untuk menghitung luas dan keliling lingkaran
+    r = jari-jari lingkaran
+    phi = 3.14
+    d = diameter
+
+3. Langkah kalkulasi
+    - menginput r
+    - menginput phi
+    - menginput diameter
+    - menghitung luas lingkaran
+    - menghitung keliling lingkaran
+    - menampilkan hasil luas dan keliling lingkaran
+
+4. Instruksi untuk tampilkan hasil kalkulasi
+    - menginput nilai r 
+        kita masukkan nilai 12
+    - menginput nilai phi dimana nilainya 3.14
+    - menghitung diameter 
+        dimana r yang kita masukkan adalah 12
+        d = 12 x 2
+        d = 24
+    - menghitung luas lingkaran
+        diketahui r nya adalah 12 dan phinya adalah 3.14 maka 
+        l = 3.14 x 12 x 12
+        l = 452.16
+    - menghitung keliling lingkaran
+        diketahui diameter nya adalah 24 dan phinya adalah 3.14 maka
+        k = 3.14 x 24
+        k = 75.36
+
+Kode Peserta : INPG-PKJ-10-023
+Nama Lengkap : Titus Gigih Trionggo
+Tugas Sesi 04 : Algoritma dan Pseudocode menghitung luas dan keliling lingkaran
