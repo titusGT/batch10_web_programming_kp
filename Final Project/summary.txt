@@ -1,0 +1,4 @@
+- Membuat final project website Curriculum Vitae
+- Membuat tugas Mandiri Sesi 8 berupa kerangka dari final project
+- membuat halaman link ke final project, sesi 7 dan sesi 8
+- kisi-kisi final project boleh menggunakan template bootstrap

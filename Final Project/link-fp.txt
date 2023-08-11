@@ -1,0 +1,3 @@
+INPG-PKJ-10-023_Titus Gigih Trionggo_Final Project_b10
+Link github = https://github.com/titusGT/INPG-PKJ-10-023_Titus-Gigih-Trionggo_Final-Project_b10
+Link netlify = https://final-project-titus.netlify.app/
